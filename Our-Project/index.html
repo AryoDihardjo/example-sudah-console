@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .bt-link button {
+            background-color: #dd8838; /* Warna latar belakang tombol */
+            color: white; /* Warna teks tombol */
+            border: none; /* Menghapus border default */
+            padding: 10px 20px; /* Menambahkan padding tombol */
+            cursor: pointer; /* Menambahkan pointer cursor saat hover */
+            border-radius: 4px; /* Menambahkan sudut membulat pada tombol */
+        }
+    
+        .bt-link button:hover {
+            background-color: #000000; /* Warna latar belakang tombol saat hover */
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- <a href="/index.html">Home</a> -->
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="image/developer.jpg">
+                <div class="content">
+                    <div class="author">Malang.Tech</div>
+                    <div class="title">Our Projects</div>
+                    <div class="topic">Developers</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        Founded in the heart of Malang, we are a team of passionate developers, designers,
+                         and real estate experts committed to delivering exceptional web development services 
+                         tailored specifically for real estate agencies. With a deep understanding of the industry and
+                          a relentless drive for innovation, we bring you the best in class solutions to help you stay
+                           ahead in a competitive market.
+                    </div>
+                    <div class="buttons">
+                        <a href="../index.html" class="bt-link">
+                            <button>HOME</button>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/designer.jpg">
+                <div class="content">
+                    <div class="author">Malang.tech</div>
+                    <div class="title">Our Peoject</div>
+                    <div class="topic">UI/UX Designers</div>
+                    <div class="des">
+                        We are a team of dedicated UI/UX designers based in the vibrant city of Malang. 
+                        With a blend of creativity, technical expertise, and a deep understanding of user behavior,
+                         we design products that are both functional and delightful to use. Our diverse backgrounds in design,
+                          psychology
+                        , and technology enable us to approach each project with a unique perspective and innovative solutions.
+                    </div>
+                    <div class="buttons">
+                        <a href="../index.html" class="bt-link">
+                            <button>HOME</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/hotel.jpg">
+                <div class="content">
+                    <div class="author">Malang.Tech</div>
+                    <div class="title">Our Project</div>
+                    <div class="topic">Hotel</div>
+                    <div class="des">
+                        Founded by the innovative minds at Malang Tech, our hotel embodies a commitment to excellence and
+                         guest satisfaction. We bring the same dedication to detail and quality that has defined our technology
+                          ventures to the hospitality industry. Our team is
+                         composed of seasoned professionals who are passionate about delivering exceptional 
+                         service and creating a welcoming environment for all our guests.
+                    </div>
+                    <div class="buttons">
+                        <a href="../index.html" class="bt-link">
+                            <button>HOME</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/home_stay.jpg">
+                <div class="content">
+                    <div class="author">Malang.Tech</div>
+                    <div class="title">Our Project</div>
+                    <div class="topic">Home Stay</div>
+                    <div class="des">
+                        Founded by the team at Malang Tech, we are passionate about providing a home-like environment
+                         for travelers. Our mission is to offer a welcoming, comfortable, and affordable stay, 
+                         where guests can enjoy personalized service and local charm. Our
+                         team is dedicated to making your stay memorable, whether you are here for a short visit or an extended stay.
+                    </div>
+                    <div class="buttons">
+                        <a href="../index.html" class="bt-link">
+                            <button>HOME</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="image/developer.jpg">
+                <div class="content">
+                    <div class="title">
+                        Malang.Tech
+                    </div>
+                    <div class="description">
+                        we are a team of passionate developers
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/designer.jpg">
+                <div class="content">
+                    <div class="title">
+                        UI/UX Designers
+                    </div>
+                    <div class="description">
+                        We are a team of dedicated UI/UX designers
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/hotel.jpg">
+                <div class="content">
+                    <div class="title">
+                        Hotel
+                    </div>
+                    <div class="description">
+                        Founded by the innovative minds at Malang Tech
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/home_stay.jpg">
+                <div class="content">
+                    <div class="title">
+                        Home Stay
+                    </div>
+                    <div class="description">
+                        Founded by the team at Malang Tech
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
